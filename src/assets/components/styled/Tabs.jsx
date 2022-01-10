@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { RiSearchLine } from "react-icons/ri"
 import { Colors } from "../../Theme"
 import { useState } from "react"
 
