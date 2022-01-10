@@ -1,28 +1,23 @@
 import styled from "styled-components"
 import FeaturedTab from "../components/FeaturedTab"
+import MyBitsList from "../components/MyBitsList"
+import PageContainer from "../components/styled/PageContainer"
 import SearchBar from "../components/styled/SearchBar"
 import Tabs from "../components/styled/Tabs"
 import { Colors } from "../Theme"
 
-const PageEl = styled.div`
-   background-color: ${Colors.Background};
-   flex: 1;
-   padding-bottom: 10vh;
-   overflow-x: hidden;
-   min-height: min-content;
-   padding-top: 1rem;
-   scrollbar-width: 0;
-   ::-webkit-scrollbar {
-      display: none;
-   }
-`
-
-const Title1 = styled.h1`
+const Logo = styled.h1`
    font-family: "Poppins", sans-serif;
-   font-weight: 600;
-   font-size: 1.5rem;
+   font-weight: 800;
+   letter-spacing: 3px;
+   font-size: 1.8rem;
    text-align: center;
    margin-bottom: 2rem;
+   opacity: 0.7;
+
+   span {
+      color: ${Colors.Primary};
+   }
 `
 
 const tabs = [
@@ -34,12 +29,16 @@ const tabs = [
 
 export default function HomePage() {
    return (
-      <PageEl>
-         <Title1>Home</Title1>
+      <PageContainer>
+         <Logo>
+            Free <span>V</span>
+         </Logo>
 
          <SearchBar />
 
          <Tabs tabs={tabs} />
-      </PageEl>
+
+         <MyBitsList />
+      </PageContainer>
    )
 }

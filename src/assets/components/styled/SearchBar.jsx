@@ -40,7 +40,7 @@ const Input = styled.input`
 export default function SearchBar() {
    return (
       <SearchBarEl>
-         <Input />
+         <Input placeholder="Search.." />
          <RiSearchLine />
       </SearchBarEl>
    )

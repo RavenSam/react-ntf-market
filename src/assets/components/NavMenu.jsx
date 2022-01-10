@@ -9,7 +9,7 @@ const NavMenuEl = styled.div`
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-color: rgba(255, 255, 255, 0.01);
+   background-color: rgba(255, 255, 255, 0.7);
    position: absolute;
    bottom: 0;
    height: 10%;
