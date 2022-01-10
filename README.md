@@ -1,12 +1,35 @@
-# Cleaned (kinda) npx-create-react-app including styled-components
 
-This is the npx-create-app output with some files removed and styled-component included.
-There is a `GlobalStyle` defined and used in `index.js` which you can use to apply your global styles using styled-components.
 
-Also there is a `Theme.js` file which you could use to define colors, breakpoints and use them across the project
+[Website Demo](https://free-v.netlify.app)
 
-1.`npm install`
+![enter image description here](https://raw.githubusercontent.com/RavenSam/react-ntf-market/main/public/Screenshot%20Free%20V%20-%20NFT%20Market.png)
 
-2.`npm start`
 
-> ##### Make sure to edit `package.json` in order to change the name or version
+
+## Installation
+
+This project requires [node](http://nodejs.org) and [npm](https://npmjs.com) installed globally.
+
+Clone the repository to a directory of your choosing.
+
+Navigate into the project directory and install the necessary packages
+
+```bash
+npm install
+
+# or
+
+yarn install
+```
+
+To start the developement locally
+
+```bash
+npm start
+
+# or
+
+yarn start
+
+```
+
